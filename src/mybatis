@@ -1,0 +1,7 @@
+数据库<--->映射<--->对象
+参数（对象，基本类型）+sql语句=entity/list
+sql写在哪里：1.xml提供sql（推荐，因为注解要改源码） 2.注解提供sql
+如何DAO接口：1.Mapper自动实现 2.API编程方式实现DAO接口
+
+dtd文件：文档类型定义(Document Type Definition)是一套为了进行程序间的数据交换而建立的关于标记符的语法规则。
+
