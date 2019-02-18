@@ -32,8 +32,8 @@ public class SuccessKilledDaoTest{
      * ZERO 日期会转化为0001-01-0100:00:00.0，相当于加了一年
      */
     public void queryByIdWithSeckill() throws Exception{
-        long id = 1001L;
-        long phone = 18569420507L;
+        long id = 1000;
+        long phone = 384728346;
         SuccessKilled successKilled = successKilledDao.queryByIdWithSeckill(id, phone);
         System.out.println(successKilled);
         System.out.println(successKilled.getSeckill());
