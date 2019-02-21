@@ -33,7 +33,7 @@ public class SuccessKilledDaoTest{
      */
     public void queryByIdWithSeckill() throws Exception{
         long id = 1000;
-        long phone = 384728346;
+        long phone = 384728345;
         SuccessKilled successKilled = successKilledDao.queryByIdWithSeckill(id, phone);
         System.out.println(successKilled);
         System.out.println(successKilled.getSeckill());

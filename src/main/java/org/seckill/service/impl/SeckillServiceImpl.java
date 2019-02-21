@@ -96,6 +96,8 @@ public class SeckillServiceImpl implements SeckillService {
                 } else {
                     //秒杀成功,得到成功插入的明细记录,并返回成功秒杀的信息 commit
                     SuccessKilled successKilled = successKilledDao.queryByIdWithSeckill(seckillId, userPhone);
+                    System.out.println(successKilled);
+                    System.out.println();
                     return new SeckillExecution(seckillId, SeckillStateEnum.SUCCESS, successKilled);
                 }
 
