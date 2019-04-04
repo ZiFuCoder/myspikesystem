@@ -5,7 +5,7 @@ import java.util.Date;
 public class SuccessKilled {
     private long seckillId;
 
-    private long userPhone;
+    private long userPhoneNumber;
 
     private short state;
 
@@ -30,11 +30,11 @@ public class SuccessKilled {
     }
 
     public long getUserPhone() {
-        return userPhone;
+        return userPhoneNumber;
     }
 
-    public void setUserPhone(long userPhone) {
-        this.userPhone = userPhone;
+    public void setUserPhone(long userPhoneNumber) {
+        this.userPhoneNumber = userPhoneNumber;
     }
 
     public short getState() {
@@ -57,7 +57,7 @@ public class SuccessKilled {
     public String toString() {
         return "SuccessKilled{" +
                 "seckillId=" + seckillId +
-                ", userPhone=" + userPhone +
+                ", userPhoneNumber=" + userPhoneNumber +
                 ", state=" + state +
                 ", createTime=" + createTime +
                 '}';

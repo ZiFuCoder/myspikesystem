@@ -14,7 +14,6 @@ public interface SeckillDao {
      * @return 如果返回>1 表示更新的行数
      */
     int reduceNumber(@Param("seckillId") long seckillId, @Param("killTime") Date killTime);
-
     /**
      * 根据id查询秒杀对象
      * @param seckillId

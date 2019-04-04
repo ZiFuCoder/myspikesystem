@@ -8,6 +8,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 
+import java.util.Date;
+
 import static org.junit.Assert.*;
 @RunWith(SpringJUnit4ClassRunner.class)
 //告诉junit spring的配置文件
@@ -18,8 +20,9 @@ public class SuccessKilledDaoTest{
     @Test
     public void insertSuccessKilled() throws Exception{
         long id = 1001L;
-        long iphone = 18569420507L;
-        int insertCount = successKilledDao.insertSuccessKilled(id, iphone);
+        long iphone = 18569420509L;
+        Date date = new Date();
+        int insertCount = successKilledDao.insertSuccessKilled(id, iphone, date);
         System.out.println("insertCount=" + insertCount);
     }
 
@@ -32,8 +35,8 @@ public class SuccessKilledDaoTest{
      * ZERO 日期会转化为0001-01-0100:00:00.0，相当于加了一年
      */
     public void queryByIdWithSeckill() throws Exception{
-        long id = 1000;
-        long phone = 384728345;
+        long id = 1001;
+        long phone = 18569420509L;
         SuccessKilled successKilled = successKilledDao.queryByIdWithSeckill(id, phone);
         System.out.println(successKilled);
         System.out.println(successKilled.getSeckill());

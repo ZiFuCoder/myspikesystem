@@ -83,7 +83,7 @@ public class SeckillServiceImpl implements SeckillService {
         try {
 
             //否则更新了库存，秒杀成功,增加明细
-            int insertCount = successKilledDao.insertSuccessKilled(seckillId, userPhone);
+            int insertCount = successKilledDao.insertSuccessKilled(seckillId, userPhone, nowTime);
             //看是否该明细被重复插入，即用户是否重复秒杀
             if (insertCount <= 0) {
                 throw new RepeatKillException("seckill repeated");
@@ -97,7 +97,6 @@ public class SeckillServiceImpl implements SeckillService {
                     //秒杀成功,得到成功插入的明细记录,并返回成功秒杀的信息 commit
                     SuccessKilled successKilled = successKilledDao.queryByIdWithSeckill(seckillId, userPhone);
                     System.out.println(successKilled);
-                    System.out.println();
                     return new SeckillExecution(seckillId, SeckillStateEnum.SUCCESS, successKilled);
                 }
 
