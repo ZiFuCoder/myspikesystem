@@ -2,6 +2,7 @@ package org.seckill.service.impl;
 
 import org.seckill.dao.SeckillDao;
 import org.seckill.dao.SuccessKilledDao;
+import org.seckill.dao.cache.RedisDao;
 import org.seckill.dto.Exposer;
 import org.seckill.dto.SeckillExecution;
 import org.seckill.entity.Seckill;
@@ -21,6 +22,7 @@ import org.springframework.util.DigestUtils;
 import javax.annotation.Resource;
 import java.util.Date;
 import java.util.List;
+
 @Service//@Component,@Service,@Dao,@Controller
 public class SeckillServiceImpl implements SeckillService {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -28,8 +30,11 @@ public class SeckillServiceImpl implements SeckillService {
     private SeckillDao seckillDao;
     @Autowired
     private SuccessKilledDao successKilledDao;
+    @Autowired
+    private RedisDao redisDao;
 
     private final String slat = "sdfjsdlfjoisdufiwerjwewdsdf";
+
     @Override
     public List<Seckill> getSeckillList() {
         return seckillDao.queryAll(0, 4);
@@ -42,10 +47,14 @@ public class SeckillServiceImpl implements SeckillService {
 
     @Override
     public Exposer exportSeckillUrl(long seckillId) {
-        Seckill seckill = seckillDao.queryById(seckillId);
-            if (seckill == null) {
+        Seckill seckill = redisDao.getSeckill(seckillId);
+        if (seckill == null) {
+            seckill = seckillDao.queryById(seckillId);
+            if(seckill == null)
                 return new Exposer(false, seckillId);
-            }
+            else
+                redisDao.putSeckill(seckill);
+        }
         Date startTime = seckill.getStartTime();//秒杀开始时间
         Date endTime = seckill.getEndTime();//秒杀结束时间
         Date nowTime = new Date();//当前时间
@@ -58,11 +67,11 @@ public class SeckillServiceImpl implements SeckillService {
         return new Exposer(true, MD5, seckillId);
     }
 
-    private String getMD5(long seckillId){
+    private String getMD5(long seckillId) {
         String base = seckillId + "/" + slat;
         String md5 = DigestUtils.md5DigestAsHex(base.getBytes());
         return md5;
-     }
+    }
 
     @Override
     @Transactional

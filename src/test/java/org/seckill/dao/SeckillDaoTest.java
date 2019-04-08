@@ -28,14 +28,14 @@ public class SeckillDaoTest {
     //注入DAO实现类依赖
     @Resource
     private SeckillDao seckillDao;
-    @org.junit.Test
+    @Test
     public void reduceNumber() throws Exception{
         Date killTime = new Date();
         int updateCount = seckillDao.reduceNumber(1000L, killTime);
         System.out.println("updateCount" + updateCount);
     }
 
-    @org.junit.Test
+    @Test
     public void queryById() throws Exception{
         long id = 1000;
         Seckill seckill = seckillDao.queryById(id);
@@ -43,7 +43,7 @@ public class SeckillDaoTest {
         System.out.println(seckill);
     }
 
-    @org.junit.Test
+    @Test
     /**
      *  Parameter 'offset' not found. Available parameters are [0, 1, param1, param2]
      *  因为如果多参数的话mybatis无法找到哪个参数对应哪个参数，单参数可以找到，因为唯一。所以需要加注解@param
