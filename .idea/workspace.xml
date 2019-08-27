@@ -6,186 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c585c9a-fabd-4da2-8dba-6ee1e5de0415" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/myspikesystem_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/myspikesystem_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_otter_canal_client_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_otter_canal_common_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_otter_canal_protocol_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/CanalThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SeckillDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SuccessKilledDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/dao/SeckillDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/dao/SuccessKilledDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/dao/cache/RedisDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/dto/Exposer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/dto/SeckillExecution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/dto/SeckillResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/entity/Seckill.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/entity/SuccessKilled.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/enums/SeckillStateEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/exception/RepeatKillException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/exception/SeckillCloseException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/exception/SeckillException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/service/SeckillService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/service/impl/CanalThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/service/impl/SeckillServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/seckill/web/SeckillController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/mapper/SeckillDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/mapper/SuccessKilledDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/dao/SeckillDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/dao/SuccessKilledDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/dao/cache/RedisDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/dto/Exposer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/dto/SeckillExecution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/dto/SeckillResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/entity/Seckill.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/entity/SuccessKilled.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/enums/SeckillStateEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/exception/RepeatKillException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/exception/SeckillCloseException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/exception/SeckillException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/service/SeckillService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/service/impl/CanalThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/service/impl/SeckillServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/org/seckill/web/SeckillController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/spring/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/spring/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/classes/spring/spring-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/jsp/common/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/jsp/common/tag.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/jsp/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/jsp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/c3p0-0.9.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/canal.client-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/canal.common-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/canal.protocol-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/commons-pool2-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/fastjson-1.2.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/guava-18.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/jackson-annotations-2.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/jackson-core-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/jackson-databind-2.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/jcl-over-slf4j-1.7.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/jedis-2.7.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/logback-classic-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/logback-core-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/mybatis-3.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/netty-3.2.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/netty-all-4.1.6.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/protostuff-api-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/protostuff-collectionschema-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/protostuff-core-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/protostuff-runtime-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/slf4j-api-1.7.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-orm-3.2.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-test-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/zkclient-0.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/lib/zookeeper-3.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/myspikesystem/resources/script/seckill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/RedisDaoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/SeckillDaoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/SuccessKilledDaoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/seckill/service/SeckillServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspikesystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myspikesystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seckill/dto/Exposer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dto/Exposer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="4c585c9a-fabd-4da2-8dba-6ee1e5de0415" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -233,9 +54,7 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9828" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -578,12 +397,20 @@
       <workItem from="1566869782372" duration="1808000" />
       <workItem from="1566892595704" duration="2353000" />
       <workItem from="1566901747278" duration="4310000" />
-      <workItem from="1566915585791" duration="1281000" />
+      <workItem from="1566915585791" duration="1617000" />
     </task>
+    <task id="LOCAL-00001" summary="增加canal功能保持redis和mysql数据一致性">
+      <created>1566916972738</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566916972738</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25741000" />
+    <option name="totallyTimeSpent" value="26077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,9 +423,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -616,7 +442,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2624729" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.1724512" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -680,6 +506,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加canal功能保持redis和mysql数据一致性" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加canal功能保持redis和mysql数据一致性" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -855,9 +685,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9828" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

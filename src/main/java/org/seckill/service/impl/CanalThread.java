@@ -36,7 +36,6 @@ public class CanalThread implements Runnable {
         CanalConnector connector = CanalConnectors.newSingleConnector(new InetSocketAddress(AddressUtils.getHostIp(),
                 11111), "example", "", "");
         int batchSize = 1000;
-        int emptyCount = 0;
         try {
             connector.connect();
             connector.subscribe(".*\\..*");
@@ -46,15 +45,11 @@ public class CanalThread implements Runnable {
                 long batchId = message.getId();
                 int size = message.getEntries().size();
                 if (batchId == -1 || size == 0) {
-                    emptyCount++;
-                    System.out.println("empty count : " + emptyCount);
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(100);
                     } catch (InterruptedException e) {
                     }
                 } else {
-                    emptyCount = 0;
-                    printEntry(message.getEntries());
                     putIntoRedis(message.getEntries());
                 }
 
@@ -94,47 +89,6 @@ public class CanalThread implements Runnable {
                     redisDao.putSeckill(seckill);
                 }
             }
-        }
-    }
-
-    private void printEntry(List<Entry> entrys) {
-        for (Entry entry : entrys) {
-            if (entry.getEntryType() == EntryType.TRANSACTIONBEGIN || entry.getEntryType() == EntryType.TRANSACTIONEND) {
-                continue;
-            }
-
-            RowChange rowChage = null;
-            try {
-                rowChage = RowChange.parseFrom(entry.getStoreValue());
-            } catch (Exception e) {
-                throw new RuntimeException("ERROR ## parser of eromanga-event has an error , data:" + entry.toString(),
-                        e);
-            }
-
-            EventType eventType = rowChage.getEventType();
-            System.out.println(String.format("================&gt; binlog[%s:%s] , name[%s,%s] , eventType : %s",
-                    entry.getHeader().getLogfileName(), entry.getHeader().getLogfileOffset(),
-                    entry.getHeader().getSchemaName(), entry.getHeader().getTableName(),
-                    eventType));
-
-            for (RowData rowData : rowChage.getRowDatasList()) {
-                if (eventType == EventType.DELETE) {
-                    printColumn(rowData.getBeforeColumnsList());
-                } else if (eventType == EventType.INSERT) {
-                    printColumn(rowData.getAfterColumnsList());
-                } else {
-                    System.out.println("-------&gt; before");
-                    printColumn(rowData.getBeforeColumnsList());
-                    System.out.println("-------&gt; after");
-                    printColumn(rowData.getAfterColumnsList());
-                }
-            }
-        }
-    }
-
-    private void printColumn(List<Column> columns) {
-        for (Column column : columns) {
-            System.out.println(column.getName() + " : " + column.getValue() + "    update=" + column.getUpdated());
         }
     }
 }
