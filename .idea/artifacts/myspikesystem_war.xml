@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="myspikesystem:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>myspikesystem</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="myspikesystem.war">
+      <element id="artifact" artifact-name="myspikesystem:war exploded" />
+    </root>
+  </artifact>
+</component>

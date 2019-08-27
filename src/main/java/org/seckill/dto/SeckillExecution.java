@@ -3,6 +3,9 @@ package org.seckill.dto;
 import org.seckill.entity.SuccessKilled;
 import org.seckill.enums.SeckillStateEnum;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 封装秒杀执行后的结果
  */

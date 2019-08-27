@@ -99,4 +99,18 @@ public class Exposer {
     public void setEnd(long end) {
         this.end = end;
     }
+
+    public static void main(String[] args) {
+
+    }
+
+    private int getMinDay(int days, int[] company, int[] gym){
+        boolean isCompany = true;
+        boolean isgym = true;
+        int minDay = 0;
+        for (int i = 0; i < days; i++) {
+
+        }
+        return 1;
+    }
 }

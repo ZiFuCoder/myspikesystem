@@ -22,6 +22,8 @@ import org.springframework.util.DigestUtils;
 import javax.annotation.Resource;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 @Service//@Component,@Service,@Dao,@Controller
 public class SeckillServiceImpl implements SeckillService {
@@ -32,11 +34,20 @@ public class SeckillServiceImpl implements SeckillService {
     private SuccessKilledDao successKilledDao;
     @Autowired
     private RedisDao redisDao;
+    @Autowired
+    private CanalThread canalThread;
 
     private final String slat = "sdfjsdlfjoisdufiwerjwewdsdf";
 
+    private boolean startCanal = false;
+
     @Override
     public List<Seckill> getSeckillList() {
+        if(!startCanal){
+            startCanal = true;
+            ExecutorService exec = Executors.newFixedThreadPool(1);
+            exec.execute(canalThread);
+        }
         return seckillDao.queryAll(0, 4);
     }
 
@@ -50,7 +61,7 @@ public class SeckillServiceImpl implements SeckillService {
         Seckill seckill = redisDao.getSeckill(seckillId);
         if (seckill == null) {
             seckill = seckillDao.queryById(seckillId);
-            if(seckill == null)
+            if (seckill == null)
                 return new Exposer(false, seckillId);
             else
                 redisDao.putSeckill(seckill);

@@ -9,5 +9,8 @@
         <module name="myspikesystem" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myspikesystem" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
