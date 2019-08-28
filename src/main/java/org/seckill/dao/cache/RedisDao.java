@@ -3,13 +3,16 @@ package org.seckill.dao.cache;
 import com.dyuproject.protostuff.LinkedBuffer;
 import com.dyuproject.protostuff.ProtostuffIOUtil;
 import com.dyuproject.protostuff.runtime.RuntimeSchema;
+import org.seckill.entity.Seckill;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
-import org.seckill.entity.Seckill;
 
-    public class RedisDao {
+import java.util.ArrayList;
+import java.util.List;
+
+public class RedisDao {
         private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
         private final JedisPool jedisPool;
@@ -19,6 +22,14 @@ import org.seckill.entity.Seckill;
         public RedisDao(String ip, int port) {
             jedisPool = new JedisPool(ip, port);
         }
+
+    public List<Seckill> getAllSeckill(List<Long> list) {
+        List<Seckill> seckillList = new ArrayList<>();
+        for (Long i : list) {
+            seckillList.add(getSeckill(i));
+        }
+        return seckillList;
+    }
 
         public Seckill getSeckill(long seckillId) {
             // redis操作业务逻辑

@@ -19,7 +19,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.DigestUtils;
 
-import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -41,19 +41,33 @@ public class SeckillServiceImpl implements SeckillService {
 
     private boolean startCanal = false;
 
+    private final static List<Long> seckillIdList = new ArrayList<>();
+
     @Override
     public List<Seckill> getSeckillList() {
         if(!startCanal){
             startCanal = true;
             ExecutorService exec = Executors.newFixedThreadPool(1);
             exec.execute(canalThread);
+            for (Seckill seckill : seckillDao.queryAll(0, 4)) {
+                redisDao.putSeckill(seckill);
+                seckillIdList.add(seckill.getSeckillId());
+            }
         }
-        return seckillDao.queryAll(0, 4);
+        return redisDao.getAllSeckill(seckillIdList);
     }
 
     @Override
     public Seckill getById(long seckillId) {
-        return seckillDao.queryById(seckillId);
+        Seckill seckill = redisDao.getSeckill(seckillId);
+        if (seckill == null) {
+            seckill = seckillDao.queryById(seckillId);
+            if (seckill == null)
+                return null;
+            else
+                redisDao.putSeckill(seckill);
+        }
+        return seckill;
     }
 
     @Override
